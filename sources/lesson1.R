@@ -44,5 +44,6 @@ sd(noten.gesamt)
 var(noten.gesamt)
 median(noten.gesamt)
 
+data.frame()
 
 
