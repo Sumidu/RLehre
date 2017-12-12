@@ -33,16 +33,16 @@ c(1, 2, 3) + c(1, 2, 3)
 # Auf Vektoren kann R statistische Funktionen rechnen
 mean(c(2.3, 2.1, 3.7))  # berechnet den Mittelwert (mean) eines Vektors
 
-notenKurs1 <- c(1.3, 1.7, 1.7, 1.0)
-mean(notenKurs1)
-notenKurs2 <- c(2.3, 2.7, 1.7, 4.0)
-mean(notenKurs2)
+noten.kurs1 <- c(1.3, 1.7, 1.7, 1.0)
+mean(noten.kurs1)
+noten.kurs2 <- c(2.3, 2.7, 1.7, 4.0)
+mean(noten.kurs2)
 
-notenGesamt <- c(notenKurs1,notenKurs2) # Vektoren können mit c aneinander gehängt werden
-mean(notenGesamt)
-sd(notenGesamt)
-var(notenGesamt)
-median(notenGesamt)
+noten.gesamt <- c(noten.kurs1,noten.kurs2) # Vektoren können mit c aneinander gehängt werden
+mean(noten.gesamt)
+sd(noten.gesamt)
+var(noten.gesamt)
+median(noten.gesamt)
 
 
 
