@@ -1,0 +1,23 @@
+---
+title: "Lektion 1"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+# R is ein Taschenrechner
+```{r}
+1 + 4   # Addtion
+7 - 2   # Subtraktion
+2 * 3   # Multiplikation
+5 / 20  # Division
+7 %/% 2 # Ganzzahl-Division
+7 %% 2  # Division Rest (Modulo)
+3 ^ 2   # Exponential Rechnung 3
+
+```
+
